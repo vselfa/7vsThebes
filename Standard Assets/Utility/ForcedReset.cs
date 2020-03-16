@@ -3,7 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
-[RequireComponent(typeof (GUITexture))]
+// [RequireComponent(typeof (GUITexture))]
+using UnityEngine.UI;  // For the Text class
+
 public class ForcedReset : MonoBehaviour
 {
     private void Update()
